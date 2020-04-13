@@ -1,7 +1,7 @@
 #define LED 8
 #define H HIGH
 #define L LOW
-  int val =100;//200もいい
+  int val = 20;//200もいい
 //{0 1}={0001000 0011100}の２値で明暗を表現
 //1bit = 5 times t
 void pwm0(int led,float t){//00100=LLHLL
